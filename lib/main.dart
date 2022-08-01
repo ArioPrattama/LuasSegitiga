@@ -1,6 +1,5 @@
+import 'package:asflutter/FormRegistration.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
-import 'package:perhitunganbangundatar/HasilPerhitungan.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,8 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const HasilPerhitungan()
+      home: const formRegistrasi(),
     );
   }
 }
+
